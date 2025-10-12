@@ -13,6 +13,8 @@
       --accent: #e6a500;
       --bg: #ffffff;
       --text: #0f1f17;
+      --white: #ffffff;
+      --dark-green: #1a936c;
     }
 
     body {
@@ -26,6 +28,8 @@
       justify-content: center;
       align-items: flex-start;
       min-height: 100vh;
+      direction: rtl;
+      unicode-bidi: bidi-override;
     }
 
     .container {
@@ -178,7 +182,9 @@
       font-size: 18px;
       margin-top: 3px;
     }
-.telegram-card {
+
+    /* ===== TELEGRAM CARD ===== */
+    .telegram-card {
       background: linear-gradient(135deg, var(--primary) 0%, #2aad83 100%);
       color: var(--white);
       padding: 32px;
@@ -246,7 +252,7 @@
       width: 18px; 
       height: 18px; 
     }
-    
+
     /* ===== FOOTER ===== */
     .footer {
       text-align: center;
@@ -273,28 +279,32 @@
   <div class="container">
     <div class="header">
     <h1>مكافآت ناقل - الاثنين 1 اكتوبر 2025</h1>
-    
       <p>احصل على مكافآتك فور إنجاز الرحلات</p>
     </div>
 
-  
+ 
 
-    <!-- Example: other reward cards can follow as before -->
-  
+
    
+  
 
-      
-      <div class="card">
-      <div class="card-title"><i class="fas fa-clock"></i> 7 مساءً - 11:59 منصف الليل</div>
+    <div class="card">
+      <div class="card-title"><i class="fas fa-clock"></i> ٥ عصراً – ٧ مساءً</div>
       <ul class="rewards-list">
         <li class="rewards-item">
-          <span class="rewards-text">لكل رحلة</span>
-          <span class="rewards-amount">1,500 دينار</span>
+          <span class="rewards-text">٢ رحلتان</span>
+          <span class="rewards-amount">٣٬٠٠٠ دينار</span>
+        </li>
+        <li class="rewards-item">
+          <span class="rewards-text">٣ رحلات</span>
+          <span class="rewards-amount">٦٬٠٠٠ دينار</span>
         </li>
       </ul>
     </div>
-   
-<div class="telegram-card">
+
+    
+    <!-- ✅ بطاقة التليغرام -->
+    <div class="telegram-card">
       <div class="telegram-logo-wrapper">
         <svg class="telegram-logo" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M9.036 15.08l-.375 5.283c.537 0 .77-.231 1.048-.508l2.517-2.42 5.217 3.82c.957.528 1.63.25 1.89-.884l-3.426-16.02h.001c.304-1.418-.512-1.972-1.448-1.626L1.12 9.247C-.25 9.778-.229 10.55.886 10.9l5.31 1.658L19.42 5.54c.618-.406 1.18-.182.717.224L9.036 15.08z" fill="#fff"/>
@@ -310,8 +320,7 @@
       </a>
     </div>
 
-
-
+    <!-- ✅ الشروط -->
     <div class="card conditions">
       <div class="card-title"><i class="fas fa-info-circle"></i> شروط الحصول على المكافآت</div>
       <ul class="conditions-list">
@@ -322,14 +331,13 @@
           <i class="fas fa-check-circle"></i> تُحسب المكافأة بناءً على وقت بداية الرحلة.
         </li>
         <li class="condition-item">
-          <i class="fas fa-check-circle"></i> تُضاف المكافأة خلال 48 ساعة إلى محفظة ناقل.
+          <i class="fas fa-check-circle"></i> تُضاف المكافأة خلال ٤٨ ساعة إلى محفظة ناقل.
         </li>
       </ul>
     </div>
 
     <div class="footer">
-      <a href="#">استخدم تطبيق ناقل وابدأ رحلتك</a> | بالشراكة مع وزارة النقل العراقية © 2025
-
+      <a href="#">استخدم تطبيق ناقل وابدأ رحلتك</a> | بالشراكة مع وزارة النقل العراقية © ٢٠٢٥
     </div>
   </div>
 </body>
