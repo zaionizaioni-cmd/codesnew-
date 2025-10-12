@@ -272,23 +272,24 @@
 <body>
   <div class="container">
     <div class="header">
-      <h1>مكافآت ناقل</h1>
+    <h1>مكافآت ناقل - الاثنين 1 اكتوبر 2025</h1>
+    
       <p>احصل على مكافآتك فور إنجاز الرحلات</p>
     </div>
 
     <!-- ✅ First Modified Card -->
     <div class="card">
     <div class="card-title"><i class="fas fa-clock"></i> 6 صباحاً – 9 صباحاً</div>
-      <div class="card-title"><i class="fas fa-shield-alt"></i> ضمان ناقل 25,000</div>
+      <div class="card-title"><i class="fas fa-shield-alt"></i> ضمان ناقل 20,000</div>
       
         <li class="rewards-item">
           <span class="rewards-text">عند إكمال 3 رحلات</span>
-          <span class="rewards-amount">25,000 دينار</span>
+          <span class="rewards-amount">20,000 دينار</span>
         </li>
       </ul>
     </div>
 
-   
+    
 <div class="telegram-card">
       <div class="telegram-logo-wrapper">
         <svg class="telegram-logo" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
