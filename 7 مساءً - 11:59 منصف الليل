@@ -288,21 +288,18 @@
    
   
 
+
     <div class="card">
-      <div class="card-title"><i class="fas fa-clock"></i> ٥ عصراً – ٧ مساءً</div>
+      <div class="card-title"><i class="fas fa-clock"></i> ٧ مساءً – ١١:٥٩ منتصف الليل</div>
       <ul class="rewards-list">
         <li class="rewards-item">
-          <span class="rewards-text">٢ رحلتان</span>
-          <span class="rewards-amount">٣٬٠٠٠ دينار</span>
-        </li>
-        <li class="rewards-item">
-          <span class="rewards-text">٣ رحلات</span>
-          <span class="rewards-amount">٦٬٠٠٠ دينار</span>
+          <span class="rewards-text">لكل رحلة</span>
+          <span class="rewards-amount">١٬٥٠٠ دينار</span>
         </li>
       </ul>
     </div>
 
-    
+ 
     <!-- ✅ بطاقة التليغرام -->
     <div class="telegram-card">
       <div class="telegram-logo-wrapper">
