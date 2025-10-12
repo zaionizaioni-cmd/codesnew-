@@ -280,11 +280,11 @@
     <!-- ✅ First Modified Card -->
     <div class="card">
     <div class="card-title"><i class="fas fa-clock"></i> 6 صباحاً – 9 صباحاً</div>
-      <div class="card-title"><i class="fas fa-shield-alt"></i> ضمان ناقل 20,000</div>
+      <div class="card-title"><i class="fas fa-shield-alt"></i> ضمان ناقل 18,000</div>
       
         <li class="rewards-item">
           <span class="rewards-text">عند إكمال 3 رحلات</span>
-          <span class="rewards-amount">20,000 دينار</span>
+          <span class="rewards-amount">18,000 دينار</span>
         </li>
       </ul>
     </div>
