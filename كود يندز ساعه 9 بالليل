@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>🎁 مكافآت ناقل الفاخرة | NAQ8</title>
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    :root {
+      --primary: #27C18D;
+      --primary-dark: #1a936c;
+      --accent: #e6a500;
+      --bg: #ffffff;
+      --text: #0f1f17;
+    }
+
+    body {
+      font-family: 'Tajawal', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      margin: 0;
+      padding: 0;
+      line-height: 1.7;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      min-height: 100vh;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 720px;
+      background: #fff;
+      border-radius: 22px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      margin: 40px 12px;
+    }
+
+    /* ===== HEADER ===== */
+    .header {
+      position: relative;
+      background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+      color: #fff;
+      padding: 50px 20px;
+      text-align: center;
+      overflow: hidden;
+    }
+
+    .header::after {
+      content: "";
+      position: absolute;
+      top: 0; left: -100%;
+      width: 50%; height: 100%;
+      background: linear-gradient(120deg, rgba(255,255,255,0.2), rgba(255,255,255,0.6), rgba(255,255,255,0.2));
+      animation: shine 3s infinite linear;
+    }
+
+    @keyframes shine {
+      0% { left: -100%; }
+      50% { left: 100%; }
+      100% { left: 100%; }
+    }
+
+    .header h1 {
+      font-size: 38px;
+      font-weight: 900;
+      margin: 0;
+      text-shadow: 0 0 12px rgba(39, 193, 141, 0.5);
+    }
+
+    .header p {
+      font-size: 16px;
+      margin-top: 10px;
+      color: #eee;
+      font-weight: 600;
+    }
+
+    /* ===== CARD ===== */
+    .card {
+      background: #fff;
+      border-radius: 16px;
+      padding: 22px;
+      margin: 22px;
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.05);
+      border: 1px solid #eaf5f0;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .card::before {
+      content: "";
+      position: absolute;
+      top: -100%;
+      left: -100%;
+      width: 200%;
+      height: 200%;
+      background: conic-gradient(from 0deg, rgba(255,255,255,0.4), transparent, rgba(255,255,255,0.4));
+      animation: spin 6s linear infinite;
+      opacity: 0.2;
+    }
+
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+
+    .card-title {
+      font-size: 22px;
+      font-weight: 800;
+      color: var(--primary-dark);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 12px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .card-title i {
+      color: var(--primary);
+    }
+
+    .rewards-list {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      position: relative;
+      z-index: 1;
+    }
+
+    .rewards-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 14px 0;
+      border-bottom: 1px dashed #e3eee8;
+    }
+
+    .rewards-item:last-child {
+      border-bottom: none;
+    }
+
+    .rewards-text {
+      font-weight: 700;
+      font-size: 17px;
+      color: #222;
+    }
+
+    .rewards-amount {
+      font-weight: 900;
+      font-size: 20px;
+      color: #e00000;
+      background: #fff4f4;
+      padding: 8px 12px;
+      border-radius: 10px;
+      box-shadow: 0 0 8px rgba(255,0,0,0.08);
+    }
+
+    /* ===== CONDITIONS ===== */
+    .conditions {
+      background: #f9fefc;
+      border: 2px solid #eaf5f0;
+    }
+
+    .condition-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      margin-bottom: 14px;
+      color: #333;
+      font-weight: 600;
+    }
+
+    .condition-item i {
+      color: var(--primary);
+      font-size: 18px;
+      margin-top: 3px;
+    }
+.telegram-card {
+      background: linear-gradient(135deg, var(--primary) 0%, #2aad83 100%);
+      color: var(--white);
+      padding: 32px;
+      border-radius: 16px;
+      overflow: hidden;
+      margin-top: 32px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    .telegram-logo-wrapper {
+      width: 60px;
+      height: 60px;
+      border-radius: 16px;
+      background: rgba(255, 255, 255, 0.18);
+      display: grid;
+      place-items: center;
+      margin-bottom: 16px;
+    }
+
+    .telegram-logo {
+      width: 32px;
+      height: 32px;
+    }
+
+    .telegram-title {
+      font-size: 24px;
+      font-weight: 800;
+      margin: 0 0 8px;
+    }
+    
+    .telegram-subtitle {
+      font-size: 16px;
+      opacity: 0.95;
+      margin: 0 0 24px;
+    }
+
+    .btn {
+      appearance: none; 
+      border: none; 
+      outline: none; 
+      cursor: pointer;
+      display: inline-flex; 
+      align-items: center; 
+      gap: 8px;
+      padding: 14px 24px; 
+      border-radius: 12px;
+      background: var(--dark-green); 
+      color: var(--white); 
+      font-weight: 700; 
+      font-size: 16px;
+      text-decoration: none;
+      box-shadow: 0 6px 12px rgba(44, 79, 55, 0.2);
+      transition: transform .2s ease, box-shadow .2s ease;
+    }
+
+    .btn:hover { 
+      transform: translateY(-2px); 
+      box-shadow: 0 8px 16px rgba(44, 79, 55, 0.3); 
+    }
+
+    .btn .tg-icon { 
+      width: 18px; 
+      height: 18px; 
+    }
+    
+    /* ===== FOOTER ===== */
+    .footer {
+      text-align: center;
+      padding: 20px;
+      font-weight: 700;
+      color: #555;
+      border-top: 1px solid #e6ede5;
+      font-size: 14px;
+    }
+
+    .footer a {
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 800;
+    }
+
+    .footer a:hover {
+      color: var(--primary-dark);
+    }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>مكافآت ناقل</h1>
+      <p>احصل على مكافآتك فور إنجاز الرحلات</p>
+    </div>
+
+    <!-- ✅ First Modified Card -->
+    <div class="card">
+    <div class="card-title"><i class="fas fa-clock"></i> 6 صباحاً – 9 صباحاً</div>
+      <div class="card-title"><i class="fas fa-shield-alt"></i> ضمان ناقل 25,000</div>
+      
+        <li class="rewards-item">
+          <span class="rewards-text">عند إكمال 3 رحلات</span>
+          <span class="rewards-amount">25,000 دينار</span>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Example: other reward cards can follow as before -->
+    <div class="card">
+      <div class="card-title"><i class="fas fa-clock"></i> 9 صباحاً – 12 ظهراً</div>
+      <ul class="rewards-list">
+        <li class="rewards-item">
+          <span class="rewards-text">3 رحلات</span>
+          <span class="rewards-amount">4,000 دينار</span>
+        </li>
+        <li class="rewards-item">
+          <span class="rewards-text">4 رحلات</span>
+          <span class="rewards-amount">8,000 دينار</span>
+        </li>
+      </ul>
+    </div>
+   
+    <div class="card">
+      <div class="card-title"><i class="fas fa-clock"></i> 12 ظهراً – 4 عصراً</div>
+      <ul class="rewards-list">
+        <li class="rewards-item">
+          <span class="rewards-text">لكل رحلة</span>
+          <span class="rewards-amount">2,000 دينار</span>
+        </li>
+      </ul>
+    </div>
+        <div class="card">
+      <div class="card-title"><i class="fas fa-clock"></i> 5 عصراً - 7مساءً</div>
+      <ul class="rewards-list">
+        <li class="rewards-item">
+         <span class="rewards-text">2 رحلات</span>
+          <span class="rewards-amount">3,000 دينار</span>
+        </li>
+        <li class="rewards-item">
+          <span class="rewards-text">3 رحلات</span>
+          <span class="rewards-amount">6,000 دينار</span>
+        </li>
+      </ul>
+    </div>
+      <div class="card">
+      <div class="card-title"><i class="fas fa-clock"></i> 7 مساءً - 11:59 منصف الليل</div>
+      <ul class="rewards-list">
+        <li class="rewards-item">
+          <span class="rewards-text">لكل رحلة</span>
+          <span class="rewards-amount">1,500 دينار</span>
+        </li>
+      </ul>
+    </div>
+    <div class="card">
+      <div class="card-title"><i class="fas fa-clock"></i> من الساعه 12:00 منتصف الليل - 5:59 صباحا </div>
+      <ul class="rewards-list">
+       <ul class="rewards-list">
+        <li class="rewards-item">
+          <span class="rewards-text">لكل رحلة</span>
+          <span class="rewards-amount">2,000 دينار</span>
+        </li>
+      </ul>
+    </div>
+<div class="telegram-card">
+      <div class="telegram-logo-wrapper">
+        <svg class="telegram-logo" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M9.036 15.08l-.375 5.283c.537 0 .77-.231 1.048-.508l2.517-2.42 5.217 3.82c.957.528 1.63.25 1.89-.884l-3.426-16.02h.001c.304-1.418-.512-1.972-1.448-1.626L1.12 9.247C-.25 9.778-.229 10.55.886 10.9l5.31 1.658L19.42 5.54c.618-.406 1.18-.182.717.224L9.036 15.08z" fill="#fff"/>
+        </svg>
+      </div>
+      <h3 class="telegram-title">انضم لقناة «كابتن ناقل» على تليغرام</h3>
+      <p class="telegram-subtitle">كل التحديثات، التنبيهات، والمكافآت اليومية في مكان واحد.</p>
+      <a class="btn" href="https://t.me/naqeliraq" target="_blank" rel="noopener noreferrer">
+        <svg class="tg-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path d="M9.036 15.08l-.375 5.283c.537 0 .77-.231 1.048-.508l2.517-2.42 5.217 3.82c.957.528 1.63.25 1.89-.884l3.426-16.02h.001c.304-1.418-.512-1.972-1.448-1.626L1.12 9.247C-.25 9.778-.229 10.55.886 10.9l5.31 1.658L19.42 5.54c.618-.406 1.18-.182.717.224L9.036 15.08z" fill="#fff"/>
+        </svg>
+        انضم الآن إلى القناة
+      </a>
+    </div>
+
+
+
+    <div class="card conditions">
+      <div class="card-title"><i class="fas fa-info-circle"></i> شروط الحصول على المكافآت</div>
+      <ul class="conditions-list">
+        <li class="condition-item">
+          <i class="fas fa-check-circle"></i> يجب أخذ الرحلات خلال الوقت المحدد.
+        </li>
+        <li class="condition-item">
+          <i class="fas fa-check-circle"></i> تُحسب المكافأة بناءً على وقت بداية الرحلة.
+        </li>
+        <li class="condition-item">
+          <i class="fas fa-check-circle"></i> تُضاف المكافأة خلال 48 ساعة إلى محفظة ناقل.
+        </li>
+      </ul>
+    </div>
+
+    <div class="footer">
+      <a href="#">استخدم تطبيق ناقل وابدأ رحلتك</a> | بالشراكة مع وزارة النقل العراقية © 2025
+
+    </div>
+  </div>
+</body>
+</html>
