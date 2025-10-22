@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>🎁 مكافآت ناقل الفاخرة | NAQ8</title>
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    :root {
+      --primary: #27C18D;
+      --primary-dark: #1a936c;
+      --accent: #e6a500;
+      --bg: #ffffff;
+      --text: #0f1f17;
+      --white: #ffffff;
+      --dark-green: #1a936c;
+    }
+
+    body {
+      font-family: 'Tajawal', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      margin: 0;
+      padding: 0;
+      line-height: 1.7;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      min-height: 100vh;
+      direction: rtl;
+      unicode-bidi: bidi-override;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 720px;
+      background: #fff;
+      border-radius: 22px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      margin: 40px 12px;
+    }
+
+    .header {
+      position: relative;
+      background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+      color: #fff;
+      padding: 50px 20px;
+      text-align: center;
+      overflow: hidden;
+    }
+
+    .header::after {
+      content: "";
+      position: absolute;
+      top: 0; left: -100%;
+      width: 50%; height: 100%;
+      background: linear-gradient(120deg, rgba(255,255,255,0.2), rgba(255,255,255,0.6), rgba(255,255,255,0.2));
+      animation: shine 3s infinite linear;
+    }
+
+    @keyframes shine {
+      0% { left: -100%; }
+      50% { left: 100%; }
+      100% { left: 100%; }
+    }
+
+    .header h1 {
+      font-size: 38px;
+      font-weight: 900;
+      margin: 0;
+      text-shadow: 0 0 12px rgba(39, 193, 141, 0.5);
+    }
+
+    .header p {
+      font-size: 16px;
+      margin-top: 10px;
+      color: #eee;
+      font-weight: 600;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 16px;
+      padding: 22px;
+      margin: 22px;
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.05);
+      border: 1px solid #eaf5f0;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .card::before {
+      content: "";
+      position: absolute;
+      top: -100%;
+      left: -100%;
+      width: 200%;
+      height: 200%;
+      background: conic-gradient(from 0deg, rgba(255,255,255,0.4), transparent, rgba(255,255,255,0.4));
+      animation: spin 6s linear infinite;
+      opacity: 0.2;
+    }
+
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+
+    .card-title {
+      font-size: 22px;
+      font-weight: 800;
+      color: var(--primary-dark);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 12px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .card-title i {
+      color: var(--primary);
+    }
+
+    .rewards-list {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      position: relative;
+      z-index: 1;
+    }
+
+    .rewards-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 14px 0;
+      border-bottom: 1px dashed #e3eee8;
+    }
+
+    .rewards-item:last-child {
+      border-bottom: none;
+    }
+
+    .rewards-text {
+      font-weight: 700;
+      font-size: 17px;
+      color: #222;
+    }
+
+    .rewards-amount {
+      font-weight: 900;
+      font-size: 20px;
+      color: #e00000;
+      background: #fff4f4;
+      padding: 8px 12px;
+      border-radius: 10px;
+      box-shadow: 0 0 8px rgba(255,0,0,0.08);
+    }
+
+    .conditions {
+      background: #f9fefc;
+      border: 2px solid #eaf5f0;
+    }
+
+    .condition-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      margin-bottom: 14px;
+      color: #333;
+      font-weight: 600;
+    }
+
+    .condition-item i {
+      color: var(--primary);
+      font-size: 18px;
+      margin-top: 3px;
+    }
+
+    .footer {
+      text-align: center;
+      padding: 20px;
+      font-weight: 700;
+      color: #555;
+      border-top: 1px solid #e6ede5;
+      font-size: 14px;
+    }
+
+    .footer a {
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 800;
+    }
+
+    .footer a:hover {
+      color: var(--primary-dark);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>مكافآت ناقل - الخميس ٢٣ أكتوبر ٢٠٢٥</h1>
+      <p>احصل على مكافآتك فور إنجاز الرحلات</p>
+    </div>
+
+    <!-- ✅ البطاقات -->
+    <div class="card">
+      <div class="card-title"><i class="fas fa-clock"></i> ٦ صباحاً – ٩ صباحاً</div>
+      <ul class="rewards-list">
+        <li class="rewards-item">
+          <span class="rewards-text">عند إكمال ٣ رحلات</span>
+          <span class="rewards-amount">٥٬٠٠٠ دينار</span>
+        </li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <div class="card-title"><i class="fas fa-clock"></i> ٩ صباحاً – ١٢ ظهراً</div>
+      <ul class="rewards-list">
+        <li class="rewards-item">
+          <span class="rewards-text">عند إكمال ٢ رحلتين</span>
+          <span class="rewards-amount">٢٬٠٠٠ دينار</span>
+        </li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <div class="card-title"><i class="fas fa-clock"></i> ١ ظهراً – ٤ عصراً</div>
+      <ul class="rewards-list">
+        <li class="rewards-item">
+          <span class="rewards-text">عند إكمال ٣ رحلات</span>
+          <span class="rewards-amount">٥٬٠٠٠ دينار</span>
+        </li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <div class="card-title"><i class="fas fa-clock"></i> ٤ عصراً – ٨ مساءً</div>
+      <ul class="rewards-list">
+        <li class="rewards-item">
+          <span class="rewards-text">عند إكمال ٣ رحلات</span>
+          <span class="rewards-amount">٢٬٠٠٠ دينار</span>
+        </li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <div class="card-title"><i class="fas fa-clock"></i> ١١ مساءً – ١٢ منتصف الليل</div>
+      <ul class="rewards-list">
+        <li class="rewards-item">
+          <span class="rewards-text">عند إكمال ٢ رحلتين</span>
+          <span class="rewards-amount">٢٬٠٠٠ دينار</span>
+        </li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <div class="card-title"><i class="fas fa-clock"></i> ١٢ منتصف الليل – ٤ فجراً</div>
+      <ul class="rewards-list">
+        <li class="rewards-item">
+          <span class="rewards-text">عند إكمال ٣ رحلات</span>
+          <span class="rewards-amount">٥٬٠٠٠ دينار</span>
+        </li>
+      </ul>
+    </div>
+
+    <!-- ✅ الشروط -->
+    <div class="card conditions">
+      <div class="card-title"><i class="fas fa-info-circle"></i> شروط الحصول على المكافآت</div>
+      <ul class="conditions-list">
+        <li class="condition-item">
+          <i class="fas fa-check-circle"></i> يجب أخذ الرحلات خلال الوقت المحدد.
+        </li>
+        <li class="condition-item">
+          <i class="fas fa-check-circle"></i> تُحسب المكافأة بناءً على وقت بداية الرحلة.
+        </li>
+        <li class="condition-item">
+          <i class="fas fa-check-circle"></i> تُضاف المكافأة خلال ٤٨ ساعة إلى محفظة ناقل.
+        </li>
+      </ul>
+    </div>
+
+    <div class="footer">
+      <a href="#">استخدم تطبيق ناقل وابدأ رحلتك</a> | بالشراكة مع وزارة النقل العراقية © ٢٠٢٥
+    </div>
+  </div>
+</body>
+</html>
